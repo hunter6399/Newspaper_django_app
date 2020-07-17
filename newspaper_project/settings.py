@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     #local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 ]
+TIME_ZONE='Asia/Kolkata'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
